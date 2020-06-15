@@ -28,6 +28,7 @@ function ContactMe() {
             <li>
               <input type="name" placeholder="Name" />
               <input type="email" placeholder="Email" />
+              <input type="hidden" name="form-name" value="contact" />
             </li>
             <li>
               <input type="purpose" placeholder="Title" />
