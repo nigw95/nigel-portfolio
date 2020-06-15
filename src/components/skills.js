@@ -40,7 +40,15 @@ function Skills() {
           <h3 className={skillStyles.skillTitle}>My Skills</h3>
         </Grid>
         {data.allMySkillsJson.edges.map(({ node }) => (
-          <Grid item key={node.name} xs={4} xl={2} align="center">
+          <Grid
+            item
+            key={node.name}
+            xs={12}
+            md={6}
+            lg={4}
+            xl={2}
+            align="center"
+          >
             <Paper
               variant="outlined"
               elevation={3}

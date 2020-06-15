@@ -1,6 +1,5 @@
 import React from "react"
 import Grid from "@material-ui/core/Grid"
-import Paper from "@material-ui/core/Paper"
 
 import contactStyles from "./styles/contactme.module.css"
 
@@ -26,8 +25,8 @@ function ContactMe() {
         >
           <ul>
             <li>
-              <input name="name" type="name" placeholder="name" />
-              <input name="email" type="email" placeholder="email" />
+              <input name="name" type="name" placeholder="Name" />
+              <input name="email" type="email" placeholder="Email" />
               <input type="hidden" name="form-name" value="contact" />
             </li>
             <li>

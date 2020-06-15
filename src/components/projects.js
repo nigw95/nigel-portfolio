@@ -32,7 +32,7 @@ function Projects() {
           <h3 className={projectStyles.projectsTitle}>My Projects</h3>
         </Grid>
         {repo.slice(0, 3).map(repo => (
-          <Grid item key={repo.id} xs={4} xl={4} align="center">
+          <Grid item key={repo.id} xs={12} md={6} lg={4} xl={4} align="center">
             <Paper
               elevation={3}
               className={projectStyles.paperStyle}
@@ -62,7 +62,7 @@ function Projects() {
             </Paper>
           </Grid>
         ))}
-        <Grid item>
+        <Grid item xs={12} md={12} xl={12}>
           <h4 className={projectStyles.viewMore}>
             Click{" "}
             <a

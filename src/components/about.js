@@ -43,7 +43,7 @@ function About() {
         container
         spacing={2}
       >
-        <Grid item lg={6} xs={8}>
+        <Grid item xl={6} sm={9} xs={8}>
           <h4 className={aboutStyles.aboutDisplay}>
             Hey there! My name is Nigel, I'm 25 years young this year and I am
             from Singapore! I've graduated from University of Wollongong in Dec
