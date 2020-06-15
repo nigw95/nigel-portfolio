@@ -1,5 +1,6 @@
 import React from "react"
 import Grid from "@material-ui/core/Grid"
+import { Link } from "gatsby"
 
 import contactStyles from "./styles/contactme.module.css"
 
@@ -38,6 +39,11 @@ function ContactMe() {
             </li>
           </ul>
         </form>
+        <Grid item xs={12} md={12} lg={12} xl={12}>
+          <Link to="/" className={contactStyles.back}>
+            Back to home
+          </Link>
+        </Grid>
       </Grid>
     </section>
   )

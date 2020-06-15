@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-smoothscroll`,
     `gatsby-transformer-json`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

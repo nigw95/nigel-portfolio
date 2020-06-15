@@ -38,11 +38,26 @@ textarea {
   resize: none;
 }
 
-.gridForm input:focus {
+.gridForm input:focus,
+textarea:focus,
+button:focus {
   border: 3px solid purple;
 }
 
 .gridForm input::placeholder,
 textarea::placeholder {
   color: black;
+}
+
+.gridForm button {
+  border-radius: 10px;
+}
+
+.back {
+  color: white;
+  text-decoration: underline;
+}
+
+.back:hover {
+  cursor: pointer;
 }
