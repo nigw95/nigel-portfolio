@@ -1,0 +1,52 @@
+[
+    {
+      "icon": "../icons/react.png",
+      "description": "Frontend Web Development",
+      "name": "ReactJS"
+    },
+	{
+      "icon": "../icons/nodejs.png",
+      "description": "Backend Web Development",
+      "name": "NodeJS/ExpressJS"
+    },
+    {
+      "icon": "../icons/database.png",
+      "description": "Database Management System",
+      "name": "MySQL/MSSQL"
+    },
+	{
+      "icon": "../icons/web.png",
+      "description": "Web Development",
+      "name": "HTML/CSS/JavaScript"
+    },
+    {
+      "icon": "../icons/gitlogo.png",
+      "description": "Version Control (VCS)",
+      "name": "Git"
+    },
+    {
+      "icon": "../icons/java.png",
+      "description": "Software Development",
+      "name": "Java"
+    },
+    {
+      "icon": "../icons/cpplus.png",
+      "description": "Software Development",
+      "name": "C++"
+    },
+	{
+      "icon": "../icons/unity.png",
+      "description": "Game Development",
+      "name": "Unity"
+    },
+	{
+      "icon": "../icons/visualBA.png",
+      "description": "Microsoft Excel VBA",
+      "name": "VBA"
+    },
+	{
+      "icon": "../icons/ubuntu.png",
+      "description": "System Administration/CLI",
+      "name": "Linux (Ubuntu)"
+    }
+  ]

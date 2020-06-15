@@ -1,0 +1,44 @@
+.outline {
+  border: 2px solid blue;
+}
+
+.projectsTitle {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.itemOutline {
+  border: 2px solid red;
+}
+
+.paperStyle {
+  width: 300px;
+  max-height: 30vh;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.linkName {
+  color: rgb(214, 212, 212);
+}
+
+.repoDescription {
+  color: rgb(146, 146, 146);
+  font-size: 18px;
+}
+
+.language {
+  color: rgb(146, 146, 146);
+  font-size: 18px;
+}
+
+.viewMore {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.viewLink {
+  color: orange;
+}

@@ -1,0 +1,37 @@
+.displayImage {
+  border-radius: 50%;
+}
+
+.sectionPadding {
+  padding-top: 10%;
+}
+
+.welcome {
+  font-size: 20px;
+  color: white;
+}
+
+.name {
+  font-size: 64px;
+  font-weight: 1000;
+  color: white;
+}
+
+.menuDisplay {
+  color: gray;
+}
+
+.linkDisplay {
+  color: grey;
+  text-decoration: none;
+  background-image: none;
+  text-shadow: none;
+}
+
+.scrollButton:hover {
+  cursor: pointer;
+}
+
+.ctcLink {
+  color: grey;
+}

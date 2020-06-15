@@ -1,0 +1,29 @@
+.skillTitle {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.paperStyle {
+  width: 260px;
+  max-height: 30vh;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.icon {
+  margin-bottom: -9px;
+}
+
+.skillDescription {
+  color: rgb(146, 146, 146);
+  font-size: 18px;
+}
+
+.skillName {
+  color: rgb(214, 212, 212);
+}
+
+.outline {
+  border: 2px solid red;
+}

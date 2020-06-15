@@ -1,0 +1,48 @@
+.sectionPadding {
+  padding-top: 10%;
+}
+
+.contactTitle {
+  color: white;
+  font-size: 48px;
+}
+
+.gridForm {
+  width: 350px;
+  background: grey;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid purple;
+}
+
+.gridForm ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.gridForm li {
+  display: grid;
+  padding: 10px;
+  row-gap: 15px;
+}
+
+.gridForm input,
+textarea {
+  background: rgb(182, 182, 182);
+}
+
+.gridForm textarea {
+  resize: none;
+}
+
+.gridForm input:focus {
+  border: 3px solid purple;
+}
+
+.gridForm input::placeholder,
+textarea::placeholder {
+  color: black;
+}
