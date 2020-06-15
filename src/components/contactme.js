@@ -26,13 +26,13 @@ function ContactMe() {
         >
           <ul>
             <li>
-              <input type="name" placeholder="Name" />
-              <input type="email" placeholder="Email" />
+              <input name="name" type="name" placeholder="name" />
+              <input name="email" type="email" placeholder="email" />
               <input type="hidden" name="form-name" value="contact" />
             </li>
             <li>
-              <input type="purpose" placeholder="Title" />
-              <textarea placeholder="Message"></textarea>
+              <input name="purpose" type="purpose" placeholder="Title" />
+              <textarea name="message" placeholder="Message"></textarea>
             </li>
             <li>
               <button>Send</button>
