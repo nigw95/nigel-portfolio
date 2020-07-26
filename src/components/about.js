@@ -59,14 +59,15 @@ function About() {
             on now! Although I am still a beginner, I wish to be able to create
             something useful and interesting in the future.
           </h4>
-          <br />
-          <b className={aboutStyles.aboutDisplay}>
-            <u>
-              Currently, I am employed at Infosys Singapore as a Systems Engineer!
-            </u>
-          </b>
-          <h4 className={aboutStyles.aboutDisplay}>
-            You can find me on the following social media -
+		  <h4 className={aboutStyles.empMedia}>
+			  <b>
+				<u>
+				  Currently, I am employed at Infosys Singapore as a Systems Engineer!
+				</u>
+			  </b>
+		  </h4>
+          <h4 className={aboutStyles.empMedia}>
+            You can find me on the following social media:
           </h4>
           <Grid
             container
