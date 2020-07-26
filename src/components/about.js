@@ -62,8 +62,7 @@ function About() {
           <br />
           <b className={aboutStyles.aboutDisplay}>
             <u>
-              Currently, I am searching for employment in the industry in web or
-              software development!
+              Currently, I am employed at Infosys Singapore as a Systems Engineer!
             </u>
           </b>
           <h4 className={aboutStyles.aboutDisplay}>
